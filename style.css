@@ -1,0 +1,21 @@
+.items-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    align-items: center;
+    justify-items: center;
+}
+
+.items-container img {
+    height: 200px;
+}
+
+.create-product {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+}
